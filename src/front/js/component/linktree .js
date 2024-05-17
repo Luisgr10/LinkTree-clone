@@ -1,5 +1,6 @@
 import React from "react";
 import '../../styles/linktree.css'
+import { Button } from "./Botones/botones";
 import profile from '../component/images/profileImg.jpg';
 
 
@@ -11,7 +12,7 @@ export const LinkTree = () => {
                     <img src={profile} className="img-Item" alt="..." />
                 </div>
                 <div className="col col d-flex justify-content-center align-items-center mt-5">
-                    <h1> aqui van tus links</h1>
+                    <Button />
                 </div>
                 <div className="col col d-flex justify-content-center align-items-center mt-5">
                     <h1> aqui van tus links</h1>
