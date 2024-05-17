@@ -7,8 +7,8 @@ export const LinkTree = () => {
     return (
         <div className="container">
             <div className="row">
-                <div className="col">
-                    <img src={profile} className="img-fluid" alt="..." />
+                <div className="col d-flex justify-content-center align-items-center mt-5">
+                    <img src={profile} className="img-Item" alt="..." />
                 </div>
             </div>
         </div>

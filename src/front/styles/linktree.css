@@ -1,0 +1,8 @@
+.img-Item {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    max-width: 100%; 
+    object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsión */
+    object-position: center; /* Centra la imagen verticalmente */
+}
