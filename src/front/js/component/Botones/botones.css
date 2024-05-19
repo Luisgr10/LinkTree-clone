@@ -108,6 +108,9 @@
   .button {
     width: 100%;
   }
+  .button i {
+    font-size: 25px;
+  }
 
 }
 
