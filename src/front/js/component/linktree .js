@@ -13,7 +13,10 @@ export const LinkTree = () => {
                 </div>
                 <div className="titles my-3">
                     <h1>Luis Guilarte Rodriguez</h1>
-                    <p>"Sin caos no hay evolución y sin evolución no hay cambios"</p>
+                    <h6>Full Stack Developer</h6>
+                </div>
+                <div className="titles">
+                <p>"Sin caos no hay evolución y sin evolución no hay cambios"</p>
                 </div>
                 <div className="col col d-flex justify-content-center align-items-center mt-3">
                     <Button
