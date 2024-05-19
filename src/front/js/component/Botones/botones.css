@@ -104,5 +104,12 @@
   color: #0073b1; /* Cambia el color del texto al pasar el cursor */
 }
 
+@media (max-width: 480px) {
+  .button {
+    width: 100%;
+  }
+
+}
+
 
   
