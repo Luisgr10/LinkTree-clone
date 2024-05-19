@@ -12,10 +12,17 @@ export const LinkTree = () => {
                     <img src={profile} className="img-Item" alt="..." />
                 </div>
                 <div className="col col d-flex justify-content-center align-items-center mt-5">
-                    <Button />
+                    <Button
+                    icon= {<i class="fa-brands fa-linkedin-in fa-2xl"></i>}
+                    name='LinkedIn'
+                    url='https://www.linkedin.com/in/luisgr10/'
+                    share={<i class="fa-solid fa-ellipsis fa-xl"></i>} />
                 </div>
                 <div className="col col d-flex justify-content-center align-items-center mt-5">
-                    <h1> aqui van tus links</h1>
+                    <Button
+                    icon= {<i className="fa-brands fa-github fa-2xl"></i>}
+                    name='Github'
+                    url='https://github.com/Luisgr10' />
                 </div>
             </div>
         </div>
