@@ -11,7 +11,7 @@ export const LinkTree = () => {
                 <div className="col d-flex justify-content-center align-items-center mt-5">
                     <img src={profile} className="img-Item" alt="..." />
                 </div>
-                <div className="titles mt-5">
+                <div className="titles my-3">
                     <h1>Luis Guilarte Rodriguez</h1>
                     <p>"Sin caos no hay evolución y sin evolución no hay cambios"</p>
                 </div>
