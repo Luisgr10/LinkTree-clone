@@ -1,6 +1,6 @@
 import React from "react";
 import '../../styles/linktree.css'
-import { Button } from "./Botones/botones";
+import { Buttons } from "./Botones/botones";
 import profile from '../component/images/profileImg.jpg';
 import { Link } from "react-router-dom";
 
@@ -20,20 +20,20 @@ export const LinkTree = () => {
                 <p>"Sin caos no hay evolución y sin evolución no hay cambios"</p>
                 </div>
                 <div className="col col d-flex justify-content-center align-items-center mt-3">
-                    <Button
+                    <Buttons
                     icon= {<i class="fa-brands fa-linkedin-in fa-2xl"></i>}
                     name='LinkedIn'
                     url='https://www.linkedin.com/in/luisgr10/'
                      />
                 </div>
                 <div className="col col d-flex justify-content-center align-items-center mt-3">
-                    <Button
+                    <Buttons
                     icon= {<i className="fa-brands fa-github fa-2xl"></i>}
                     name='Github'
                     url='https://github.com/Luisgr10' />
                 </div>
                 <div className="col col d-flex justify-content-center align-items-center mt-3">
-                    <Button
+                    <Buttons
                     icon= {<i class="fa-solid fa-laptop-code fa-2xl"></i>}
                     name='Portfolio'
                     url='/portfolio'/>
