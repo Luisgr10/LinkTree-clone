@@ -15,6 +15,7 @@
 }
 .titles h1 {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Agrega un pequeño sombreado */
+    color: black;
 }
 .titles h6 {
     font-size: 20px;
@@ -26,6 +27,7 @@
 .titles p {
     font-size: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Agrega un pequeño sombreado */
+    color: black;
 }
 
 @media (max-width: 480px) {
