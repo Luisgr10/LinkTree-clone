@@ -1,6 +1,7 @@
 .button {
     width: 40%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     padding: 15px 32px;
     font-size: 17px;
@@ -65,9 +66,13 @@
     background: none;
     opacity: 0; /* Hacer el botón transparente inicialmente */
     transition: opacity 0.3s ease; 
+    
   }
 
-  .share-btn:hover {
+   .button:hover .share-btn {
     opacity: 1; 
-  }
+  } 
+  .share-btn i {
+    pointer-events: none; /* Asegura que el icono no interfiera con los eventos del botón */
+}
   

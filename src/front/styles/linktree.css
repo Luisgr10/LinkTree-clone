@@ -6,3 +6,9 @@
     object-fit: cover; /* Ajusta la imagen para cubrir el contenedor sin distorsión */
     object-position: center; /* Centra la imagen verticalmente */
 }
+
+.titles {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
